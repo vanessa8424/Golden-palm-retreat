@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Project</title>
+  <style>
+    @media (max-width: 768px) {
+  /* Styles for screens smaller than 768px */
+}
+			body{
+				margin:0;
+				font-family:Arial, sans-serif;
+background-color:#f2f2f2;
+;
+		}
+
+
+ .nav {
+      position: relative;
+      background-color: #fff;
+      color: #000;
+      padding: 1em;
+      text-align: center;
+    }
+
+    .nav-toggle {
+      position: absolute;
+      top: 1em;
+      right: 1em;
+      cursor: pointer;
+      display: none;
+    }
+
+    .nav-toggle span {
+      display: block;
+      width: 2em;
+      height: 0.2em;
+      background-color: #000;
+      margin-bottom: 0.4em;
+    }
+
+    .nav-menu {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .nav-menu li {
+      margin-right: 1em;
+    }
+
+    .nav-menu a {
+      color: gold;
+      text-decoration: none;
+    }
+
+
+
+			header{
+				
+				
+				margyin-left:0px;
+				padtding:10px;
+				margin:nomargin;
+				position:relative;
+				
+				background-color:white;
+background-attachment:fixed;
+width:100%;
+display:position;
+position:fixed;
+				
+			}
+
+
+			nav, logo, ul, li{
+				display:flex;
+				flex-direction:row;
+				justify-content: space-between;
+				align-items:center;
+				flex-wrap:wrap;
+				
+			}
+			.list{
+				display:flex;
+				flex-direction:column;
+
+			}
+			.logoimg{
+				width:50px;
+				height:50px;
+			}
+			.lg{
+				font-size:20px;
+				font-family:Kunstler Script;
+				color:orange;
+			}
+
+				.lo{
+			color:rgb(185,150,10);
+			}
+
+			logo{	
+				font-size:15px;
+				font-weight:bold;
+			}
+				
+			ul{	
+				
+				flex-basis:550px;
+				font-weight:bold;
+				color:rgb(100,150,160);
+			}
+				
+			a{
+				text-decoration: none;
+				color:rgb(180,160,100);
+			}
+
+			a:hover{
+				color:rgb(230,250,100);
+			}
+
+			.btn{
+				padding:5px;
+				border-radius:15px;
+				color:black;
+				background-color:gold;
+			}
+
+.btn:hover{
+color:green;
+background-color:yellow;
+}
+.hero{
+padding-left:80px;
+padding-top:250px;
+font-family:Arial;
+background-image:url('IMG-20251128-WA0033.jpg');
+background-size:cover;
+background-position:center;
+height:20em;
+font-size:30px;
+color:white;
+background-size:cover;
+background-position:center;
+
+}
+
+.about-section{
+padding:50px 0;
+background-color:#f7f7f7;
+}
+
+.about-content{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+align-items:center;
+}
+
+.image-column{
+flex-basis:40%;
+padding:20px;
+
+}
+
+.image-column img{
+width:100%;
+height:auto;
+border-radius:10%;
+}
+
+.text-column{
+flex-basis:60%;
+padding:20px;
+}
+
+.text-column p{
+font-size:16px;
+line-height:1.5;
+color:#333;
+
+}
+
+.box{
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+}
+
+
+.boxe1:hover{
+transform:scale(0.7);
+transition:0.3s ease;
+}
+
+h2{
+font-size:35px;
+margin:20px;
+}
+
+.box1{
+font-family:Arial;
+background-imahhge:linear-gradient(hsla(200, 50%, 50%, 0.2),hsla(200, 50%, 50%, 0.2));
+lightness:50%;
+background-size:cover;
+background-position:center;
+width:15em;
+height:20em;
+color:white;
+text-align:center;
+padding:8px;
+padding-bottom:20px;
+text-decoration:none;
+margin:8px;
+}
+
+
+
+.box1 p{
+font-size:18px;
+
+}
+
+
+
+
+
+
+
+.box{
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+}
+
+
+.box2:hover{
+transform:scale(1.1);
+transition:0.3s ease;
+}
+
+
+
+.box2{
+font-family:Arial;
+background-imahhge:linear-gradient(hsla(200, 50%, 50%, 0.2),hsla(200, 50%, 50%, 0.2));
+background-size:cover;
+background-position:center;
+width:400px;
+height:150px;
+color:white;
+text-align:center;
+padding:18px;
+padding-bottom:40px;
+text-decoration:none;
+margin:20px;
+}
+
+
+
+
+
+    footer {
+color:white;
+      background-color: #287896;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+      margin: 0px;
+    }
+
+.social-icons {
+      text-align: center;
+      padding: 20px;
+
+    }
+
+    .social-icons a {
+      margin: 0 10px;
+      color:     ;
+      font-size: 24px;
+      transition: color 0.2s ease;
+background-color:red;
+border-radius:50%;
+    }
+
+    .social-icons a:hover {
+      color:        
+    }
+
+    .fab {
+      font-family: "Font Awesome 5 Brands";
+    }
+
+.contact-form{
+backyground-color:;
+border:1.7px solid rgb(220,220,220);
+padding:25px;
+margin:50px;
+}
+
+.required{
+color:red;
+}
+
+.contact{
+border-bottom:2px solid rgb(200,200,200);
+
+}
+
+@media (max-width:768px){
+.image-column img{
+width:100%;
+height:auto;
+border-radius:10%;
+}
+
+  .nav-toggle {
+        display: block;
+      }
+      .nav-menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: #333;
+        padding: 1em;
+        border: 1px solid #444;
+      }
+      .nav-menu.show {
+        display: flex;
+      }
+      .nav-menu li {
+        margin-bottom: 1em;
+        margin-right: 0;
+      }
+    }
+
+    section {
+      padding: 2em;
+    }
+
+
+.image-column, text-column{
+flex-basis:100%;
+}
+
+
+
+
+
+
+
+}
+  </style>
+</head>
+<body>
+
+<header>
+<nav class="nav">
+<logo><img class="logoimg" src="IMG_20251128_141728_108.jpg" alt="Golden Palm Retreat"> <span  style="position:absolute; top:24px; left:65px;" class="lo">GOLDEN PALM</span><br><span  style="position:absolute; top:40px; left:55px;" class="lg"> RETREAT</span>
+</logo>
+
+  
+    <div class="nav-toggle" title="Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul class="nav-menu">
+      <li><a href=" #">Home</a></li>
+      <li><a href="#about" title="Learn About Us">About</a></li>
+<li><a href="#rooms" title=" Book a room">Rooms</a></li>
+      <li><a href=" #gallery" title="Check Our Gallery">Gallery</a></li>
+      <li><a href=" #contact" title="Contact Us">Contact</a></li>
+    </ul>
+
+ </nav>
+</header>
+<script>
+    const navToggle = document.querySelector('.nav-toggle');
+    const navMenu = document.querySelector('.nav-menu');
+
+    navToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('show');
+    });
+  </script>
+<section class="hero">
+<h1>Welcome to Golden <br>Palm Retreat</h1>
+<p>Your Luxury Escape by the Sea</p>
+ <a class="btn" href="#rooms">Explore Rooms</a>
+   </section>
+
+<section  class="about-section"   >
+<div class="container" id="about">
+<h2 >
+About Us
+</h2>
+<div class="about-content">
+<div class="image-column">
+<img  src="IMG-20251128-WA0029.jpg"alt="hotel image">
+</div>
+<div class="text-column">
+<p >Nestled along the stunning coast of Lagos, Golden Palm Retreat offers unmatched comfort, elegant rooms, and unforgettable service. Whether you're visiting for business or relaxation, we make every stay a memory.
+</p>
+
+</div>
+</div>
+</div>
+</section>
+
+<section class="rooms">
+<h2>Rooms</h2>
+<div class="box"  id="rooms">
+<div class="box1" style="background-image:linear-gradient(hsla(360, 100%, 0%, 0.25),hsla(360, 50%, 0%, 0.25)), url('IMG-20251128-WA0000.jpg')">
+<h3>
+Room 1: Deluxe Suite</h3>
+
+<p>
+A spacious suite with ocean view, king-size bed, private balcony, and en-suite bathroom. </p>
+<h3>$13/night</h3>
+
+<button class="btn">Book Now</button>
+</div>
+
+<div class="box1" style="background-image:linear-gradient(hsla(10, 100%, 30%, 0.1),hsla(10, 50%, 50%, 0.2)), url('IMG-20251128-WA0002.jpg')">
+<h3>
+Room 2: Executive Room</h3>
+
+<p>
+ Cozy and modern with a queen bed, workspace, and garden view. </p>
+<h3>$9/night</h3>
+
+<button class="btn">Book Now</button>
+</div>
+
+<div class="box1" style="background-image: linear-gradient(hsla(10, 100%, 0%, 0.1),hsla(10, 50%, 0%, 0.2)), url('IMG-20251128-WA0004.jpg')">
+<h3>
+Room 3: Family Room</h3>
+<p>
+Perfect for families with two double beds, kids' area, and complimentary breakfast. </p>
+
+<h3>$14/night</h3>
+
+<button class="btn">Book Now</button>
+</div>
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="gallery">
+<h2  id="gallery">Gallery</h2>
+<div class="box">
+<div class="box2" style="background-image:url('IMG-20251128-WA0006.jpg')">
+</div>
+
+<div class="box2" style="background-image:url('IMG-20251128-WA0024.jpg')">
+
+</div>
+
+<div class="box2" style="background-image: url('IMG-20251128-WA0004.jpg')">
+</div>
+
+</div>
+
+
+
+
+<div class="box">
+<div class="box2" style="background-image:url('IMG-20251128-WA0027.jpg')">
+</div>
+
+<div class="box2" style="background-image:url('IMG-20251128-WA0002.jpg')">
+
+</div>
+
+<div class="box2" style="background-image: url('IMG-20251128-WA0003.jpg')">
+
+</div>
+
+</div>
+
+
+
+
+<div class="box">
+<div class="box2" style="background-image:url('IMG-20251128-WA0000.jpg')">
+
+</div>
+
+<div class="box2" style="background-image:url('IMG-20251128-WA0032.jpg')">
+</div>
+
+<div class="box2" style="background-image:url('IMG-20251128-WA0030.jpg')">
+</div>
+
+</div>
+
+</section>
+
+<section class="contact-form" id="contact">
+<h3 class="contact" >Contact Us</h3>
+
+<p>Your email address will not be published. Required fields are marked <span class="required">*</span></p>
+<form action="/submit" method="post">
+<label for="message">Message</label><br>
+<textarea id="message" rows="6" cols="45px" placeholder="Leave us a message, complaint or review"></textarea><br><br>
+
+<label for="name">Name<span class="required">*</span></label><br>
+<input type="text" id="name" name="name" placeholder="Enter full name, eg.John Doe" required><br><br>
+
+
+<label for="email">Email<span class="required">*</span></label><br>
+<input type="email" id="email" name="email" placeholder="Enter your email address" required><br><br>
+
+<input type="submit" class="btn" value="Contact Us"></form>
+
+</section>
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="100%" height="250" style="border:0;" allowfullscreen=""></iframe>
+
+  <footer>
+    &copy; 2025 Golden Palm Retreat. All rights reserved.
+<div class="social-icons">
+      <a href="https://www.facebook.com/your-facebook-page" target="_blank">
+        <i class="fab fa-facebook-f">f</i>
+      </a>
+      <a href="https:                                                          
+        <i class="fab fa-instagram">in</i>
+      </a>
+      <a href="https://www.twitter.com/your-twitter-handle" target="_blank">
+        <i class="fab fa-twitter">tw</i>
+      </a>
+    </div>
+  </footer>
+
+</body>
+</html>
